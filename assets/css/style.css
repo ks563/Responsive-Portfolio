@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    color:white;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: #666666;
+}
+
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    height: 75px;
+    width: 250px;
+    padding: 15px;
+    background: #ffffff;
+    background-color:#4aaaa5;
+    border-color: #cccccc;
+    float: left;
+    text-align: center;   
+}
+
+h3{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #ffffff;
+    float: right;
+    padding: 10px;
+    text-align: center;
+    color: #777777;
+}
+
+/* css for all header2 class*/
+.header2{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #ffffff;
+    color:#4aaaa5;
+    width: 100%;
+    text-align: left;
+    border-bottom-style: solid;
+    border-bottom-color: #666666;
+}
+
+/* still having issues having the background image show up*/
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    border-color: #dddddd;
+    background-image: url("../../images/tiny-squares.jpg");
+    background-color:#ffffff;
+    border: 10px;
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1 0 auto;
+    background-color:#ffffff;
+}
+
+/* still having issues having the background image show up*/
+.info{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+}
+
+/*styling isn't affecting the button and I can't figure out why*/
+.button {
+    border: solid;
+    /*background-color:#4aaaa5; - is changing all background in that row not just the button*/
+    color:white;
+}
+
+/* still having issues having the background image show up*/
+.portfolio{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+}
+
+.aboutme{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-indent: 2em;
+}
+
+.info{
+    float: left;
+    background-color:#ffffff;
+}
+
+.wireframe{
+    float: left;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+
+.lorem{
+    float: left;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+
+.lorem2{
+    float: left;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+
+.lorem3{
+    float: left;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+
+.lorem4{
+    float: left;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+}
+
+.text-block{
+    background-color: #4aaaa5;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+    width: 250px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+}
+
+
+.footer{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    float:left;
+    width: 100%;
+    text-align: center;
+    /* specified border-top but it shows all the way around*/
+    border-top: 8px;
+    border-style: solid;
+    border-color:#4aaaa5;
+    background-color: #666666;
+    padding:20px;
+    height: 75px;
+    flex-shrink: 1;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
