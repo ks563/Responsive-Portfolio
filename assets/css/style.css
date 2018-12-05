@@ -157,18 +157,31 @@ body{
 
 @media screen and (max-width: 980px) {
     body {
-       width: 50%;
-    }
+        width: 50%;
+        margin: auto;
+     }
+     .header{
+         width: 100%;
+     }
 }
 
 @media screen and (max-width: 768px) {
     body {
-       width: 50%;
-    }
+        width: 100%;
+        margin: auto;
+     }
+     .header{
+         width: 100%;
+     }
 }
 
 @media screen and (max-width: 640px) {
     body {
-       width: 50%;
+       width: 100%;
+       margin: auto;
+    }
+    .header{
+        width: 100%;
+        position: static;
     }
 }
