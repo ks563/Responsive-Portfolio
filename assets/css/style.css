@@ -149,23 +149,18 @@ body{
     flex-shrink: 1;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 @media screen and (max-width: 980px) {
     body {
-        width: 50%;
-        margin: auto;
+        width: 75%;
+        float: left;
+        margin: auto 20px;
      }
      .header{
          width: 100%;
      }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     body {
         width: 100%;
         margin: auto;
@@ -184,4 +179,10 @@ body{
         width: 100%;
         position: static;
     }
+} */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
