@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
 }
-
+/* should be split into 2 classses to create a break point so that the about, contact, and portfolio will break
+and go under my name */
 .header{
     height: 100px;
     width: 100%;
@@ -160,6 +161,10 @@ body{
         margin: auto 20px;
      }
 
+     .input{
+        width: 100px;
+    }
+
      .header{
          width: 65%;
          position: static;
@@ -180,6 +185,10 @@ body{
         margin: auto 20px;
      }
 
+     .input{
+        width: 200px;
+    }
+
      .header{
          width: 100%;
      }
@@ -196,10 +205,11 @@ body{
      }
 
     .input{
-         width: 900px:
-
+         width: 500px;
      }
 }
+
+/* worked with Will - input elements still will not resize with media queries */
 
 .clearfix::after {
     content: "";
