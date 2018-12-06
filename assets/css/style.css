@@ -149,7 +149,7 @@ body{
     flex-shrink: 1;
 }
 
-@media screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) {
     body {
         width: 75%;
         float: left;
@@ -160,7 +160,7 @@ body{
      }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     body {
         width: 75%;
         float: left;
@@ -178,7 +178,7 @@ body{
      }
 }
 
-@media screen and (max-width: 640px) {
+@@media only screen and (max-width: 640px) {
     body {
         width: 75%;
         float: left;
