@@ -66,6 +66,9 @@ body{
 .info{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
+    float: left;
+    background-color:#ffffff;
+}
 }
 
 /*styling isn't affecting the button and I can't figure out why*/
@@ -85,12 +88,7 @@ body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-indent: 2em;
 }
-
-.info{
-    float: left;
-    background-color:#ffffff;
-}
-
+   
 .wireframe{
     float: left;
     padding: 10px 10px 10px 10px;
@@ -149,7 +147,7 @@ body{
     flex-shrink: 1;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) and (min-width: 769px) {
     body {
         width: 75%;
         float: left;
@@ -160,7 +158,7 @@ body{
      }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 641px) {
     body {
         width: 75%;
         float: left;
@@ -180,20 +178,21 @@ body{
 
 @@media only screen and (max-width: 640px) {
     body {
-        width: 75%;
+        width: 65%;
         float: left;
         margin: auto 20px;
      }
 
      .info{
-        width: 75%;
+        width: 65%;
         float: left;
         margin: auto 20px;
      }
 
      .header{
-         width: 100%;
+         width: 65%;
          position: static;
+         display: block;
      }
 }
 
