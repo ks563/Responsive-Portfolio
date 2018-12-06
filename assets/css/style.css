@@ -171,12 +171,22 @@ body{
         margin: auto 20px;
      }
 
+     input [type="text"] {
+        width: 200px;
+        height: 25px;
+    }
+
+    textarea {
+        width:650px;
+        height: 80px;
+    }
+
      .header{
          width: 100%;
      }
 }
 
-@@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
     body {
         width: 65%;
         float: left;
@@ -187,6 +197,16 @@ body{
         width: 65%;
         float: left;
         margin: auto 20px;
+     }
+
+     input [type="text"] {
+         width: 100px;
+         height: 20px;
+     }
+
+     textarea {
+         width:580px;
+         height: 50px;
      }
 
      .header{
